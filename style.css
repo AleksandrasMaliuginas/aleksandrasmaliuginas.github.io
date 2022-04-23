@@ -1,0 +1,11 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 0.25em 0.5em;
+}
+
+a.nav-link {
+    cursor: pointer;
+}
