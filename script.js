@@ -1,5 +1,9 @@
 "use strict";
 
+// import "./module.js"
+
+// console.log(field1);
+
 load_data('exams.json');
 
 async function load_data(data_path) {

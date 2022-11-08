@@ -222,6 +222,20 @@
          "TaskUrl": "https://www.nsa.smm.lt/wp-content/uploads/2021/03/4123_2014-MAT-bandomasis.pdf",
          "AnswersUrl": "https://www.nsa.smm.lt/wp-content/uploads/2021/03/4131_2014-MAT-bandomojo-vert_instr.pdf",
          "Attachments": ""
+      },
+      {
+         "Year": 2022,
+         "ExamType": "PGR",
+         "TaskUrl": "https://www.nsa.smm.lt/wp-content/uploads/2022/06/Mat_VBEpagr_2022.pdf",
+         "AnswersUrl": "https://www.nsa.smm.lt/wp-content/uploads/2022/07/2022-m.-vertinimo-instrukcija-PAGR-MATEMATIKA.pdf",
+         "Attachments": ""
+      },
+      {
+         "Year": 2022,
+         "ExamType": "PAK",
+         "TaskUrl": "https://www.nsa.smm.lt/wp-content/uploads/2022/07/1-Mat_VBEpak_2022.pdf",
+         "AnswersUrl": "",
+         "Attachments": ""
       }
    ],
    "IT": [
@@ -413,6 +427,20 @@
          "TaskUrl": "https://www.nsa.smm.lt/wp-content/uploads/2021/03/4118_2014-IT-bandomasis.pdf",
          "AnswersUrl": "https://www.nsa.smm.lt/wp-content/uploads/2021/03/4130_2014-IT-bandomojo-vert_instr.pdf",
          "Attachments": "https://www.nsa.smm.lt/wp-content/uploads/2021/03/4140_2014-IT-bandomasis-priedai.zip"
+      },
+      {
+         "Year": 2022,
+         "ExamType": "PGR",
+         "TaskUrl": "https://www.nsa.smm.lt/wp-content/uploads/2022/06/IT_2022_pagr.pdf",
+         "AnswersUrl": "https://www.nsa.smm.lt/wp-content/uploads/2022/07/IT-VBE-2022-vertinimo-instrukcija_GALUTINE-red.pdf",
+         "Attachments": "https://www.nsa.smm.lt/wp-content/uploads/2022/06/Uzduoties-priedai.zip"
+      },
+      {
+         "Year": 2022,
+         "ExamType": "PAK",
+         "TaskUrl": "https://www.nsa.smm.lt/wp-content/uploads/2022/07/IT_2022_PK.pdf",
+         "AnswersUrl": "https://www.nsa.smm.lt/wp-content/uploads/2021/07/IT-VBE-2021-vertinimo-instrukcija.pdf",
+         "Attachments": "https://www.nsa.smm.lt/wp-content/uploads/2022/07/IT_uzduoties-priedai.zip"
       }
    ]
 }
