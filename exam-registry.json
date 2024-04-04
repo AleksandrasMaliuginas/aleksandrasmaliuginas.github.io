@@ -132,7 +132,7 @@
           "PAK": {
             "session": "Pakartotinė sesija",
             "file": "IT-2022-PAK-UZD.pdf",
-            "assessmentFile": null,
+            "assessmentFile": "IT-2022-PAK-VER.pdf",
             "attachmentsUrl": null
           }
         }
@@ -185,6 +185,22 @@
             "session": "Pagrindinė sesija",
             "file": "IT-2017-PGR-UZD.pdf",
             "assessmentFile": "IT-2017-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2023": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2023-PAK-UZD.pdf",
+            "assessmentFile": "IT-2023-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2023-PGR-UZD.pdf",
+            "assessmentFile": "IT-2023-PGR-VER.pdf",
             "attachmentsUrl": null
           }
         }
@@ -257,6 +273,22 @@
     "subject": "Matematika",
     "common_files": [],
     "years": {
+      "2023": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2023-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2023-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2023-PAK-UZD.pdf",
+            "assessmentFile": "MAT-2023-PAK-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
       "2005": {
         "exams": {
           "PGR": {
@@ -436,7 +468,7 @@
           "PAK": {
             "session": "Pakartotinė sesija",
             "file": "MAT-2022-PAK-UZD.pdf",
-            "assessmentFile": null,
+            "assessmentFile": "MAT-2022-PAK-VER.pdf",
             "attachmentsUrl": null
           },
           "PGR": {
