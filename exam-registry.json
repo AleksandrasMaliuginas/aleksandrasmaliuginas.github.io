@@ -1,7 +1,6 @@
 {
   "IT": {
     "subject": "Informacinės technologijos",
-    "common_files": [],
     "years": {
       "2013": {
         "exams": {
@@ -271,7 +270,6 @@
   },
   "MAT": {
     "subject": "Matematika",
-    "common_files": [],
     "years": {
       "2023": {
         "exams": {
