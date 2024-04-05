@@ -34,12 +34,12 @@
                         <td v-if="exam.tableRowSpan " :rowspan="exam.tableRowSpan">{{ exam.year }}</td>
                         <td>{{ exam.examType }}</td>
                         <td>
-                            <a v-if="exam.taskUrl" :href="exam.taskUrl" class="d-block w-100" target="_blank">
-                                {{ exam.fileName }}</a>
+                            <a v-if="exam.task" :href="exam.task.url" class="d-block w-100" target="_blank">
+                                {{ exam.task.name }}</a>
                         </td>
                         <td>
-                            <a v-if="exam.answersUrl" :href="exam.answersUrl" class="d-block w-100" target="_blank">
-                                {{ exam.fileName }}</a>
+                            <a v-if="exam.assessment" :href="exam.assessment.url" class="d-block w-100" target="_blank">
+                                {{ exam.assessment.name }}</a>
                         </td>
                     </tr>
                 </template>

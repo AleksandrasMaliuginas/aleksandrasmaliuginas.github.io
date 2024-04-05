@@ -54,12 +54,11 @@ function subjectExamsToList(subject) {
     for (const [sessionKey, session] of exams.sort(descending)) {
 
       const record = {
-        tableRowSpan: tableRowSpan,
         year: year,
         examType: sessionKey,
-        taskUrl: 'files/' + session.file,
-        answersUrl: 'files/' + session.assessmentFile,
-        fileName: session.file
+        task: fileRecordOrDefault(session.file, null),
+        assessment: fileRecordOrDefault(session.assessmentFile, null),
+        tableRowSpan: tableRowSpan,
       };
 
       tableRowSpan = 0;
@@ -70,6 +69,14 @@ function subjectExamsToList(subject) {
   return examsList;
 }
 
+
+function fileRecordOrDefault(fileName, defaultValue) {
+  return fileName ? {
+    name: fileName,
+    url: 'files/' + fileName,
+  }
+  : defaultValue;
+}
 
 function ascending([keyStrA, valA], [keyStrB, valB]) {
   return keyStrB > keyStrA ? -1 : 1;
