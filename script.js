@@ -41,7 +41,7 @@ async function createVueApp(subjectKey) {
 
   const examsList = subjectExamsToList(actingSubject);
 
-  document.title = actingSubject.subject;
+  document.title = actingSubject.subject + " | " + document.title;
 
   return Vue.createApp({
     data() {
