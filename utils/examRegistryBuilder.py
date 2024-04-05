@@ -45,7 +45,6 @@ def main():
 def newSubject(subjectKey: str):
     return {
         "subject": SUBJECT_KEY_TO_NAME[subjectKey],
-        "common_files": [],
         "years": {},
     }
 

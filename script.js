@@ -2,10 +2,17 @@
 
 const SUBJECT_TEMPLATE_HTML = "template.html";
 const EXAMS_REGISTRY = "exam-registry.json";
+const COMMON_FILES = "common-files.json";
+
 const EXAM_SUBJECT = document.getElementById("app").getAttribute("exam_subject");
 const SUBJECT_KEY_TO_NOBLE_NAME = {
   "MAT": "Matematikos",
   "IT": "Informacinių technologijų",
+};
+const SESSION_KEY_TO_NAME = {
+  "PGR": "Pagrindinė sesija",
+  "PAK": "Pakartotinė sesija",
+  "BAN": "Bandomoji sesija",
 };
 
 
@@ -26,18 +33,23 @@ async function createVueApp(subjectKey) {
     return Vue.createApp({}).mount("#app");
   }
 
-  const subjectExams = await fetchExamRegistry(EXAMS_REGISTRY);
-  const actingSubject = subjectExams[subjectKey];
+  const examsRegistry = await fetchJsonResource(EXAMS_REGISTRY);
+  const actingSubject = examsRegistry[subjectKey];
+
+  const commonFilesRegistry = await fetchJsonResource(COMMON_FILES);
+  const commonFiles = commonFilesRegistry[subjectKey];
+
   const examsList = subjectExamsToList(actingSubject);
 
-  document.title = actingSubject.subject
+  document.title = actingSubject.subject;
 
   return Vue.createApp({
     data() {
       return {
         subjectName: actingSubject.subject,
         nobleSubjectName: SUBJECT_KEY_TO_NOBLE_NAME[subjectKey],
-        exams: examsList
+        exams: examsList,
+        commonFiles: commonFiles,
       };
     }
   }).mount("#app");
@@ -55,7 +67,7 @@ function subjectExamsToList(subject) {
 
       const record = {
         year: year,
-        examType: sessionKey,
+        session: { key: sessionKey, name: SESSION_KEY_TO_NAME[sessionKey] },
         task: fileRecordOrDefault(session.file, null),
         assessment: fileRecordOrDefault(session.assessmentFile, null),
         tableRowSpan: tableRowSpan,
@@ -75,7 +87,7 @@ function fileRecordOrDefault(fileName, defaultValue) {
     name: fileName,
     url: 'files/' + fileName,
   }
-  : defaultValue;
+    : defaultValue;
 }
 
 function ascending([keyStrA, valA], [keyStrB, valB]) {
@@ -86,7 +98,7 @@ function descending([keyStrA, valA], [keyStrB, valB]) {
   return keyStrB < keyStrA ? -1 : 1;
 }
 
-async function fetchExamRegistry(registry_file_url) {
+async function fetchJsonResource(registry_file_url) {
   const response = await fetch(registry_file_url);
 
   return await response.json();
