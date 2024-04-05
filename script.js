@@ -1,84 +1,86 @@
 "use strict";
 
-// import "./module.js"
+const SUBJECT_TEMPLATE_HTML = "template.html";
+const EXAMS_REGISTRY = "exam-registry.json";
+const EXAM_SUBJECT = document.getElementById("app").getAttribute("exam_subject");
+const SUBJECT_KEY_TO_NOBLE_NAME = {
+  "MAT": "Matematikos",
+  "IT": "Informacinių technologijų",
+};
 
-// console.log(field1);
 
-load_data('exams.json');
+await loadSubjectTemplate();
+await createVueApp(EXAM_SUBJECT);
 
-async function load_data(data_path) {
 
-  const response = await fetch(data_path);
-  const data = await response.json();
-  const subjects = Object.keys(data).slice(1);
+async function loadSubjectTemplate() {
+  const appHtml = document.getElementById("app");
+  const template = await fetch(SUBJECT_TEMPLATE_HTML);
 
-  subjects.forEach(sub => {
-    // Sort exams in descending order
-    data[sub].sort((a, b) => b.Year - a.Year);
+  appHtml.innerHTML = await template.text();
+}
 
-    // Add counts for rowspan when displaying in table
-    countSameYearExams(data[sub]);
+async function createVueApp(subjectKey) {
 
-  });
+  if (!subjectKey) {
+    return Vue.createApp({}).mount("#app");
+  }
 
-  // Set file urls to local ones
-  useLocalUrls(data, subjects);
+  const subjectExams = await fetchExamRegistry(EXAMS_REGISTRY);
+  const actingSubject = subjectExams[subjectKey];
+  const examsList = subjectExamsToList(actingSubject);
 
-  const vm = Vue.createApp({
+  document.title = actingSubject.subject
+
+  return Vue.createApp({
     data() {
       return {
-        documents: data.docs,
-        subjects: subjects,
-        selected: subjects[0],
-        data: data,
-
-        temp_year: 0,
+        subjectName: actingSubject.subject,
+        nobleSubjectName: SUBJECT_KEY_TO_NOBLE_NAME[subjectKey],
+        exams: examsList
       };
-    },
-    methods: {
-      show: function (subject) {
-        this.selected = subject;
-        this.temp_year = 0;
-      }
     }
   }).mount("#app");
 }
 
-function useLocalUrls(data, subjects) {
-  const DIR = 'files/';
+function subjectExamsToList(subject) {
+  const examsList = [];
 
-  subjects.forEach(sub => {
-    data[sub].forEach(exam => {
-      if (exam.TaskUrl) {
-        exam.RemoteTaskUrl = exam.TaskUrl;
-        exam.TaskUrl = DIR + [sub, exam.Year, exam.ExamType, 'UZD'].join("_") + '.pdf';
-      }
-      if (exam.AnswersUrl) {
-        exam.RemoteAnswersUrl = exam.AnswersUrl;
-        exam.AnswersUrl = DIR + [sub, exam.Year, exam.ExamType, 'VER'].join("_") + '.pdf';
-      }
-    });
-  });
-}
+  for (const [year, yearExams] of Object.entries(subject.years).sort(descending)) {
 
-function countSameYearExams(data) {
-  let lastRecord = {
-    idx: 0,
-    count: 1,
-    year: data[0].Year
-  }
+    const exams = Object.entries(yearExams.exams);
+    let tableRowSpan = exams.length;
 
-  for (let i = 1; i < data.length; i++) {
-    if (lastRecord.year !== data[i].Year) {
-      data[lastRecord.idx].Count = lastRecord.count;
+    for (const [sessionKey, session] of exams.sort(descending)) {
 
-      lastRecord.idx = i;
-      lastRecord.count = 1;
-      lastRecord.year = data[i].Year;
-    } else {
-      lastRecord.count += 1;
+      const record = {
+        tableRowSpan: tableRowSpan,
+        year: year,
+        examType: sessionKey,
+        taskUrl: 'files/' + session.file,
+        answersUrl: 'files/' + session.assessmentFile,
+        fileName: session.file
+      };
+
+      tableRowSpan = 0;
+      examsList.push(record);
     }
   }
 
-  data[lastRecord.idx].Count = lastRecord.count;
+  return examsList;
+}
+
+
+function ascending([keyStrA, valA], [keyStrB, valB]) {
+  return keyStrB > keyStrA ? -1 : 1;
+}
+
+function descending([keyStrA, valA], [keyStrB, valB]) {
+  return keyStrB < keyStrA ? -1 : 1;
+}
+
+async function fetchExamRegistry(registry_file_url) {
+  const response = await fetch(registry_file_url);
+
+  return await response.json();
 }

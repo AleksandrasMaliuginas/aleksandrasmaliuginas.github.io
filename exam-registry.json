@@ -1,0 +1,576 @@
+{
+  "IT": {
+    "subject": "Informacinės technologijos",
+    "common_files": [],
+    "years": {
+      "2013": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2013-PGR-UZD.pdf",
+            "assessmentFile": "IT-2013-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2013-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          },
+          "BAN": {
+            "session": "Bandomoji sesija",
+            "file": "IT-2013-BAN-UZD.pdf",
+            "assessmentFile": "IT-2013-BAN-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2008": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2008-PAK-UZD.pdf",
+            "assessmentFile": "IT-2008-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2008-PGR-UZD.pdf",
+            "assessmentFile": "IT-2008-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2020": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2020-PGR-UZD.pdf",
+            "assessmentFile": "IT-2020-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2010": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2010-PGR-UZD.pdf",
+            "assessmentFile": "IT-2010-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "BAN": {
+            "session": "Bandomoji sesija",
+            "file": "IT-2010-BAN-UZD.pdf",
+            "assessmentFile": "IT-2010-BAN-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2010-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2009": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2009-PGR-UZD.pdf",
+            "assessmentFile": "IT-2009-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2009-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2014": {
+        "exams": {
+          "BAN": {
+            "session": "Bandomoji sesija",
+            "file": "IT-2014-BAN-UZD.pdf",
+            "assessmentFile": "IT-2014-BAN-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2014-PAK-UZD.pdf",
+            "assessmentFile": "IT-2014-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2014-PGR-UZD.pdf",
+            "assessmentFile": "IT-2014-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2021": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2021-PGR-UZD.pdf",
+            "assessmentFile": "IT-2021-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2022": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2022-PGR-UZD.pdf",
+            "assessmentFile": "IT-2022-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2022-PAK-UZD.pdf",
+            "assessmentFile": "IT-2022-PAK-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2018": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2018-PGR-UZD.pdf",
+            "assessmentFile": "IT-2018-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2007": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2007-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2015": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2015-PAK-UZD.pdf",
+            "assessmentFile": "IT-2015-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2015-PGR-UZD.pdf",
+            "assessmentFile": "IT-2015-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2017": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2017-PAK-UZD.pdf",
+            "assessmentFile": "IT-2017-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2017-PGR-UZD.pdf",
+            "assessmentFile": "IT-2017-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2023": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2023-PAK-UZD.pdf",
+            "assessmentFile": "IT-2023-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2023-PGR-UZD.pdf",
+            "assessmentFile": "IT-2023-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2016": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2016-PAK-UZD.pdf",
+            "assessmentFile": "IT-2016-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2016-PGR-UZD.pdf",
+            "assessmentFile": "IT-2016-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2019": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2019-PGR-UZD.pdf",
+            "assessmentFile": "IT-2019-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2011": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2011-PGR-UZD.pdf",
+            "assessmentFile": "IT-2011-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "IT-2011-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2012": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2012-PGR-UZD.pdf",
+            "assessmentFile": "IT-2012-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2006": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "IT-2006-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      }
+    }
+  },
+  "MAT": {
+    "subject": "Matematika",
+    "common_files": [],
+    "years": {
+      "2023": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2023-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2023-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2023-PAK-UZD.pdf",
+            "assessmentFile": "MAT-2023-PAK-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2005": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2005-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2015": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2015-PAK-UZD.pdf",
+            "assessmentFile": "MAT-2015-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2015-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2015-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2012": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2012-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2012-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2010": {
+        "exams": {
+          "BAN": {
+            "session": "Bandomoji sesija",
+            "file": "MAT-2010-BAN-UZD.pdf",
+            "assessmentFile": "MAT-2010-BAN-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2010-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2010-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2010-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2013": {
+        "exams": {
+          "BAN": {
+            "session": "Bandomoji sesija",
+            "file": "MAT-2013-BAN-UZD.pdf",
+            "assessmentFile": "MAT-2013-BAN-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2013-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2013-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2017": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2017-PAK-UZD.pdf",
+            "assessmentFile": "MAT-2017-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2017-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2017-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2016": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2016-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2016-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2016-PAK-UZD.pdf",
+            "assessmentFile": "MAT-2016-PAK-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2019": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2019-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2019-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2011": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2011-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2011-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2011-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2002": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2002-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2009": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2009-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2009-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2009-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2008": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2008-PAK-UZD.pdf",
+            "assessmentFile": "MAT-2008-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2008-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2008-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2022": {
+        "exams": {
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2022-PAK-UZD.pdf",
+            "assessmentFile": "MAT-2022-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2022-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2022-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2014": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2014-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2014-PGR-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "PAK": {
+            "session": "Pakartotinė sesija",
+            "file": "MAT-2014-PAK-UZD.pdf",
+            "assessmentFile": "MAT-2014-PAK-VER.pdf",
+            "attachmentsUrl": null
+          },
+          "BAN": {
+            "session": "Bandomoji sesija",
+            "file": "MAT-2014-BAN-UZD.pdf",
+            "assessmentFile": "MAT-2014-BAN-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2006": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2006-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2020": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2020-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2020-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2004": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2004-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2018": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2018-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2018-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2021": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2021-PGR-UZD.pdf",
+            "assessmentFile": "MAT-2021-PGR-VER.pdf",
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2007": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2007-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      },
+      "2003": {
+        "exams": {
+          "PGR": {
+            "session": "Pagrindinė sesija",
+            "file": "MAT-2003-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsUrl": null
+          }
+        }
+      }
+    }
+  }
+}
