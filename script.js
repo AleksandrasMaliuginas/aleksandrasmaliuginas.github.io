@@ -57,13 +57,13 @@ async function createVueApp(subjectKey) {
         exams: examsList,
         commonFiles: commonFiles,
 
-        tableColumns: fileTypeToColumns(actingSubject.usedFileTypes),
+        tableColumns: filesTypeToColumns(actingSubject.usedFileTypes),
       };
     }
   }).mount("#app");
 }
 
-function fileTypeToColumns(fileTypes) {
+function filesTypeToColumns(fileTypes) {
   return fileTypes.map(type => ({
     name: FILE_TYPE_TO_COLUMN[type],
     fileType: type,
