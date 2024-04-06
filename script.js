@@ -14,6 +14,11 @@ const SESSION_KEY_TO_NAME = {
   "PAK": "Pakartotinė sesija",
   "BAN": "Bandomoji sesija",
 };
+const FILE_TYPE_TO_COLUMN = {
+  "taskFile": "Užduotis",
+  "assessmentFile": "Vertinimas",
+  "attachmentsFile": "Priedai",
+};
 
 
 await loadSubjectTemplate();
@@ -48,11 +53,21 @@ async function createVueApp(subjectKey) {
       return {
         subjectName: actingSubject.subject,
         nobleSubjectName: SUBJECT_KEY_TO_NOBLE_NAME[subjectKey],
+
         exams: examsList,
         commonFiles: commonFiles,
+
+        tableColumns: filesTypeToColumns(actingSubject.usedFileTypes),
       };
     }
   }).mount("#app");
+}
+
+function filesTypeToColumns(fileTypes) {
+  return fileTypes.map(type => ({
+    name: FILE_TYPE_TO_COLUMN[type],
+    fileType: type,
+  }));
 }
 
 function subjectExamsToList(subject) {
@@ -68,8 +83,11 @@ function subjectExamsToList(subject) {
       const record = {
         year: year,
         session: { key: sessionKey, name: SESSION_KEY_TO_NAME[sessionKey] },
-        task: fileRecordOrDefault(session.file, null),
-        assessment: fileRecordOrDefault(session.assessmentFile, null),
+
+        taskFile: fileRecordOrDefault(session.taskFile, null),
+        assessmentFile: fileRecordOrDefault(session.assessmentFile, null),
+        attachmentsFile: fileRecordOrDefault(session.attachmentsFile, null),
+
         tableRowSpan: tableRowSpan,
       };
 
@@ -82,12 +100,17 @@ function subjectExamsToList(subject) {
 }
 
 
-function fileRecordOrDefault(fileName, defaultValue) {
-  return fileName ? {
-    name: fileName,
-    url: 'files/' + fileName,
+function fileRecordOrDefault(fileUrl, defaultValue) {
+  return fileUrl ? {
+    name: fileName(fileUrl),
+    url: fileUrl,
   }
     : defaultValue;
+}
+
+function fileName(fileUrl) {
+  const path = fileUrl.split('/');
+  return path[path.length - 1];
 }
 
 function ascending([keyStrA, valA], [keyStrB, valB]) {

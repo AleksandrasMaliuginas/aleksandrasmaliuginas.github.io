@@ -1,39 +1,49 @@
+from enum import Enum
 import json
+import os
 from pathlib import Path
 from typing import Callable
 
+EXAM_FILES_DIR = "../files/"
 EXAM_REGISTRY_FILE = "../exam-registry.json"
-SUBJECT_KEY_TO_NAME = {
-    "MAT": "Matematika",
-    "IT": "Informacinės technologijos",
-}
-SESSION_KEY_TO_NAME = {
-    "PGR": "Pagrindinė sesija",
-    "PAK": "Pakartotinė sesija",
-    "BAN": "Bandomoji sesija",
-}
+
+
+class FileType(Enum):
+    UZD = "taskFile"
+    VER = "assessmentFile"
+    PRD = "attachmentsFile"
+
+    def keys():
+        return FileType._member_names_
+
+
+class Subject(Enum):
+    MAT = "Matematika"
+    IT = "Informacinės technologijos"
+
+    def __init__(self, name: str):
+        Enum.__init__(name)
+        self.usedFileTypes = dict.fromkeys(FileType.keys(), False)
 
 
 def main():
-    pathList = Path("../files").glob("*.pdf")
     exam_registry = {}
 
-    for path in pathList:
-        filePath = str(path)
+    for root, subdirs, files in os.walk(EXAM_FILES_DIR):
+        for file in files:
+            filePath = str(Path(root, file))
 
-        filename = filePath.split("/")[2]
-        subjectKey, year, sessionKey, type = filename.split(".")[0].split("-")
-        # print(subjectKey, year, sessionKey, type)
+            filename = filePath.split("/")[-1]
+            subjectKey, year, sessionKey, fileType = filename.split(".")[0].split("-")
+            # print(subjectKey, year, sessionKey, fileType)
 
-        subject = appendIfAbsent(exam_registry, subjectKey, newSubject)
-        yearExams = appendIfAbsent(subject["years"], year, newYear)
-        session = appendIfAbsent(yearExams["exams"], sessionKey, newExamSession)
+            subject = appendIfAbsent(exam_registry, subjectKey, newSubject)
+            yearExams = appendIfAbsent(subject["years"], year, newYear)
+            session = appendIfAbsent(yearExams["exams"], sessionKey, newExamSession)
 
-        if type == "UZD":
-            session["file"] = filename
+            setSessionFileField(session, filePath, subjectKey, fileType)
 
-        if type == "VER":
-            session["assessmentFile"] = filename
+    setFileTypesUsed(exam_registry)
 
     exam_registry_json = json.dumps(exam_registry, indent=2, ensure_ascii=False)
 
@@ -42,9 +52,26 @@ def main():
     registry_file.close()
 
 
+def setFileTypesUsed(examRegistry: dict):
+    for subject in Subject:
+        usedFileTypes: list = examRegistry[subject.name]["usedFileTypes"]
+
+        for field, initialized in subject.usedFileTypes.items():
+            if initialized:
+                usedFileTypes.append(FileType[field].value)
+
+
+def setSessionFileField(session: dict, filePath: str, subjectKey: str, fileType: str):
+    for type in FileType:
+        if fileType == type.name:
+            session[type.value] = filePath.replace("../", "")
+            Subject[subjectKey].usedFileTypes[type.name] = True
+
+
 def newSubject(subjectKey: str):
     return {
-        "subject": SUBJECT_KEY_TO_NAME[subjectKey],
+        "subject": Subject[subjectKey].value,
+        "usedFileTypes": [],
         "years": {},
     }
 
@@ -57,10 +84,9 @@ def newYear(year: str):
 
 def newExamSession(sessionKey: str):
     return {
-        "session": SESSION_KEY_TO_NAME[sessionKey],
-        "file": None,
-        "assessmentFile": None,
-        "attachmentsUrl": None,
+        FileType.UZD.value: None,
+        FileType.VER.value: None,
+        FileType.PRD.value: None,
     }
 
 
