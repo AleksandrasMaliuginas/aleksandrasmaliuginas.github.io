@@ -4,12 +4,12 @@ from PyPDF2 import PdfReader, PdfWriter
 
 
 def main():
-    pathList = Path("../files").glob("*.pdf")
+    pathList = Path("../files").rglob("*.pdf")
 
     for path in pathList:
         filePath = str(path)
 
-        filename = filePath.split("/")[2]
+        filename = filePath.split("/")[-1]
         subjectKey, year, session, type = filename.split(".")[0].split("-")
 
         keyToSubjectName = {"MAT": "Matematika", "IT": "Informacinės technologijos"}

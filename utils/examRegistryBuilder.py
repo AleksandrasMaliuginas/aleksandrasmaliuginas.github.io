@@ -1,6 +1,5 @@
 from enum import Enum
 import json
-import os
 from pathlib import Path
 from typing import Callable
 
@@ -28,20 +27,20 @@ class Subject(Enum):
 
 def main():
     exam_registry = {}
+    pathList = Path("../files").rglob("*.*")
 
-    for root, subdirs, files in os.walk(EXAM_FILES_DIR):
-        for file in files:
-            filePath = str(Path(root, file))
+    for path in pathList:
+        filePath = str(path)
 
-            filename = filePath.split("/")[-1]
-            subjectKey, year, sessionKey, fileType = filename.split(".")[0].split("-")
-            # print(subjectKey, year, sessionKey, fileType)
+        filename = filePath.split("/")[-1]
+        subjectKey, year, sessionKey, fileType = filename.split(".")[0].split("-")
+        # print(subjectKey, year, sessionKey, fileType)
 
-            subject = appendIfAbsent(exam_registry, subjectKey, newSubject)
-            yearExams = appendIfAbsent(subject["years"], year, newYear)
-            session = appendIfAbsent(yearExams["exams"], sessionKey, newExamSession)
+        subject = appendIfAbsent(exam_registry, subjectKey, newSubject)
+        yearExams = appendIfAbsent(subject["years"], year, newYear)
+        session = appendIfAbsent(yearExams["exams"], sessionKey, newExamSession)
 
-            setSessionFileField(session, filePath, subjectKey, fileType)
+        setSessionFileField(session, filePath, subjectKey, fileType)
 
     setFileTypesUsed(exam_registry)
 
