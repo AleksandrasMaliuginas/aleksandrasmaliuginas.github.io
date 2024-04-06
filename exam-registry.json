@@ -1,4 +1,276 @@
 {
+  "MAT": {
+    "subject": "Matematika",
+    "usedFileTypes": [
+      "taskFile",
+      "assessmentFile"
+    ],
+    "years": {
+      "2023": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2023-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2023-PGR-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2023-PAK-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2023-PAK-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2005": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2005-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2015": {
+        "exams": {
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2015-PAK-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2015-PAK-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2015-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2015-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2012": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2012-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2012-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2010": {
+        "exams": {
+          "BAN": {
+            "taskFile": "files/MAT/MAT-2010-BAN-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2010-BAN-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2010-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2010-PGR-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2010-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2013": {
+        "exams": {
+          "BAN": {
+            "taskFile": "files/MAT/MAT-2013-BAN-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2013-BAN-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2013-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2013-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2017": {
+        "exams": {
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2017-PAK-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2017-PAK-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2017-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2017-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2016": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2016-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2016-PGR-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2016-PAK-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2016-PAK-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2019": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2019-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2019-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2011": {
+        "exams": {
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2011-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          },
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2011-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2011-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2002": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2002-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2009": {
+        "exams": {
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2009-PAK-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          },
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2009-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2009-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2008": {
+        "exams": {
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2008-PAK-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2008-PAK-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2008-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2008-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2022": {
+        "exams": {
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2022-PAK-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2022-PAK-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2022-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2022-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2014": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2014-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2014-PGR-VER.pdf",
+            "attachmentsFile": null
+          },
+          "PAK": {
+            "taskFile": "files/MAT/MAT-2014-PAK-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2014-PAK-VER.pdf",
+            "attachmentsFile": null
+          },
+          "BAN": {
+            "taskFile": "files/MAT/MAT-2014-BAN-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2014-BAN-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2006": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2006-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2020": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2020-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2020-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2004": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2004-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2018": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2018-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2018-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2021": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2021-PGR-UZD.pdf",
+            "assessmentFile": "files/MAT/MAT-2021-PGR-VER.pdf",
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2007": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2007-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          }
+        }
+      },
+      "2003": {
+        "exams": {
+          "PGR": {
+            "taskFile": "files/MAT/MAT-2003-PGR-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
+          }
+        }
+      }
+    }
+  },
   "IT": {
     "subject": "Informacinės technologijos",
     "usedFileTypes": [
@@ -10,32 +282,32 @@
       "2013": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2013-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2013-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2013-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2013-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2013-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2013-PGR-PRD.zip"
           },
           "PAK": {
-            "taskFile": "files/IT-2013-PAK-UZD.pdf",
+            "taskFile": "files/IT/IT-2013-PAK-UZD.pdf",
             "assessmentFile": null,
             "attachmentsFile": null
           },
           "BAN": {
-            "taskFile": "files/IT-2013-BAN-UZD.pdf",
-            "assessmentFile": "files/IT-2013-BAN-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2013-BAN-PRD.zip"
+            "taskFile": "files/IT/IT-2013-BAN-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2013-BAN-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2013-BAN-PRD.zip"
           }
         }
       },
       "2008": {
         "exams": {
           "PAK": {
-            "taskFile": "files/IT-2008-PAK-UZD.pdf",
-            "assessmentFile": "files/IT-2008-PAK-VER.pdf",
+            "taskFile": "files/IT/IT-2008-PAK-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2008-PAK-VER.pdf",
             "attachmentsFile": null
           },
           "PGR": {
-            "taskFile": "files/IT-2008-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2008-PGR-VER.pdf",
+            "taskFile": "files/IT/IT-2008-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2008-PGR-VER.pdf",
             "attachmentsFile": null
           }
         }
@@ -43,26 +315,26 @@
       "2020": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2020-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2020-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2020-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2020-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2020-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2020-PGR-PRD.zip"
           }
         }
       },
       "2010": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2010-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2010-PGR-VER.pdf",
+            "taskFile": "files/IT/IT-2010-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2010-PGR-VER.pdf",
             "attachmentsFile": null
           },
           "BAN": {
-            "taskFile": "files/IT-2010-BAN-UZD.pdf",
-            "assessmentFile": "files/IT-2010-BAN-VER.pdf",
+            "taskFile": "files/IT/IT-2010-BAN-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2010-BAN-VER.pdf",
             "attachmentsFile": null
           },
           "PAK": {
-            "taskFile": "files/IT-2010-PAK-UZD.pdf",
+            "taskFile": "files/IT/IT-2010-PAK-UZD.pdf",
             "assessmentFile": null,
             "attachmentsFile": null
           }
@@ -71,12 +343,12 @@
       "2009": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2009-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2009-PGR-VER.pdf",
+            "taskFile": "files/IT/IT-2009-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2009-PGR-VER.pdf",
             "attachmentsFile": null
           },
           "PAK": {
-            "taskFile": "files/IT-2009-PAK-UZD.pdf",
+            "taskFile": "files/IT/IT-2009-PAK-UZD.pdf",
             "assessmentFile": null,
             "attachmentsFile": null
           }
@@ -85,58 +357,58 @@
       "2014": {
         "exams": {
           "BAN": {
-            "taskFile": "files/IT-2014-BAN-UZD.pdf",
-            "assessmentFile": "files/IT-2014-BAN-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2014-BAN-PRD.zip"
+            "taskFile": "files/IT/IT-2014-BAN-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2014-BAN-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2014-BAN-PRD.zip"
           },
           "PAK": {
-            "taskFile": "files/IT-2014-PAK-UZD.pdf",
-            "assessmentFile": "files/IT-2014-PAK-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2014-PAK-PRD.zip"
+            "taskFile": "files/IT/IT-2014-PAK-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2014-PAK-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2014-PAK-PRD.zip"
           },
           "PGR": {
-            "taskFile": "files/IT-2014-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2014-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2014-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2014-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2014-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2014-PGR-PRD.zip"
           }
         }
       },
       "2021": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2021-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2021-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2021-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2021-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2021-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2021-PGR-PRD.zip"
           }
         }
       },
       "2022": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2022-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2022-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2022-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2022-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2022-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2022-PGR-PRD.zip"
           },
           "PAK": {
-            "taskFile": "files/IT-2022-PAK-UZD.pdf",
-            "assessmentFile": "files/IT-2022-PAK-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2022-PAK-PRD.zip"
+            "taskFile": "files/IT/IT-2022-PAK-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2022-PAK-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2022-PAK-PRD.zip"
           }
         }
       },
       "2018": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2018-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2018-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2018-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2018-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2018-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2018-PGR-PRD.zip"
           }
         }
       },
       "2007": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2007-PGR-UZD.pdf",
+            "taskFile": "files/IT/IT-2007-PGR-UZD.pdf",
             "assessmentFile": null,
             "attachmentsFile": null
           }
@@ -145,77 +417,77 @@
       "2015": {
         "exams": {
           "PAK": {
-            "taskFile": "files/IT-2015-PAK-UZD.pdf",
-            "assessmentFile": "files/IT-2015-PAK-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2015-PAK-PRD.zip"
+            "taskFile": "files/IT/IT-2015-PAK-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2015-PAK-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2015-PAK-PRD.zip"
           },
           "PGR": {
-            "taskFile": "files/IT-2015-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2015-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2015-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2015-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2015-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2015-PGR-PRD.zip"
           }
         }
       },
       "2017": {
         "exams": {
           "PAK": {
-            "taskFile": "files/IT-2017-PAK-UZD.pdf",
-            "assessmentFile": "files/IT-2017-PAK-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2017-PAK-PRD.zip"
+            "taskFile": "files/IT/IT-2017-PAK-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2017-PAK-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2017-PAK-PRD.zip"
           },
           "PGR": {
-            "taskFile": "files/IT-2017-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2017-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2017-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2017-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2017-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2017-PGR-PRD.zip"
           }
         }
       },
       "2023": {
         "exams": {
           "PAK": {
-            "taskFile": "files/IT-2023-PAK-UZD.pdf",
-            "assessmentFile": "files/IT-2023-PAK-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2023-PAK-PRD.zip"
+            "taskFile": "files/IT/IT-2023-PAK-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2023-PAK-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2023-PAK-PRD.zip"
           },
           "PGR": {
-            "taskFile": "files/IT-2023-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2023-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2023-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2023-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2023-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2023-PGR-PRD.zip"
           }
         }
       },
       "2016": {
         "exams": {
           "PAK": {
-            "taskFile": "files/IT-2016-PAK-UZD.pdf",
-            "assessmentFile": "files/IT-2016-PAK-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2016-PAK-PRD.zip"
+            "taskFile": "files/IT/IT-2016-PAK-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2016-PAK-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2016-PAK-PRD.zip"
           },
           "PGR": {
-            "taskFile": "files/IT-2016-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2016-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2016-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2016-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2016-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2016-PGR-PRD.zip"
           }
         }
       },
       "2019": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2019-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2019-PGR-VER.pdf",
-            "attachmentsFile": "files/priedai/IT-2019-PGR-PRD.zip"
+            "taskFile": "files/IT/IT-2019-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2019-PGR-VER.pdf",
+            "attachmentsFile": "files/IT/priedai/IT-2019-PGR-PRD.zip"
           }
         }
       },
       "2011": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2011-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2011-PGR-VER.pdf",
+            "taskFile": "files/IT/IT-2011-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2011-PGR-VER.pdf",
             "attachmentsFile": null
           },
           "PAK": {
-            "taskFile": "files/IT-2011-PAK-UZD.pdf",
+            "taskFile": "files/IT/IT-2011-PAK-UZD.pdf",
             "assessmentFile": null,
             "attachmentsFile": null
           }
@@ -224,8 +496,8 @@
       "2012": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2012-PGR-UZD.pdf",
-            "assessmentFile": "files/IT-2012-PGR-VER.pdf",
+            "taskFile": "files/IT/IT-2012-PGR-UZD.pdf",
+            "assessmentFile": "files/IT/IT-2012-PGR-VER.pdf",
             "attachmentsFile": null
           }
         }
@@ -233,279 +505,7 @@
       "2006": {
         "exams": {
           "PGR": {
-            "taskFile": "files/IT-2006-PGR-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          }
-        }
-      }
-    }
-  },
-  "MAT": {
-    "subject": "Matematika",
-    "usedFileTypes": [
-      "taskFile",
-      "assessmentFile"
-    ],
-    "years": {
-      "2023": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2023-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2023-PGR-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PAK": {
-            "taskFile": "files/MAT-2023-PAK-UZD.pdf",
-            "assessmentFile": "files/MAT-2023-PAK-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2005": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2005-PGR-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2015": {
-        "exams": {
-          "PAK": {
-            "taskFile": "files/MAT-2015-PAK-UZD.pdf",
-            "assessmentFile": "files/MAT-2015-PAK-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PGR": {
-            "taskFile": "files/MAT-2015-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2015-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2012": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2012-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2012-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2010": {
-        "exams": {
-          "BAN": {
-            "taskFile": "files/MAT-2010-BAN-UZD.pdf",
-            "assessmentFile": "files/MAT-2010-BAN-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PGR": {
-            "taskFile": "files/MAT-2010-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2010-PGR-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PAK": {
-            "taskFile": "files/MAT-2010-PAK-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2013": {
-        "exams": {
-          "BAN": {
-            "taskFile": "files/MAT-2013-BAN-UZD.pdf",
-            "assessmentFile": "files/MAT-2013-BAN-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PGR": {
-            "taskFile": "files/MAT-2013-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2013-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2017": {
-        "exams": {
-          "PAK": {
-            "taskFile": "files/MAT-2017-PAK-UZD.pdf",
-            "assessmentFile": "files/MAT-2017-PAK-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PGR": {
-            "taskFile": "files/MAT-2017-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2017-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2016": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2016-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2016-PGR-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PAK": {
-            "taskFile": "files/MAT-2016-PAK-UZD.pdf",
-            "assessmentFile": "files/MAT-2016-PAK-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2019": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2019-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2019-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2011": {
-        "exams": {
-          "PAK": {
-            "taskFile": "files/MAT-2011-PAK-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          },
-          "PGR": {
-            "taskFile": "files/MAT-2011-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2011-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2002": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2002-PGR-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2009": {
-        "exams": {
-          "PAK": {
-            "taskFile": "files/MAT-2009-PAK-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          },
-          "PGR": {
-            "taskFile": "files/MAT-2009-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2009-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2008": {
-        "exams": {
-          "PAK": {
-            "taskFile": "files/MAT-2008-PAK-UZD.pdf",
-            "assessmentFile": "files/MAT-2008-PAK-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PGR": {
-            "taskFile": "files/MAT-2008-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2008-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2022": {
-        "exams": {
-          "PAK": {
-            "taskFile": "files/MAT-2022-PAK-UZD.pdf",
-            "assessmentFile": "files/MAT-2022-PAK-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PGR": {
-            "taskFile": "files/MAT-2022-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2022-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2014": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2014-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2014-PGR-VER.pdf",
-            "attachmentsFile": null
-          },
-          "PAK": {
-            "taskFile": "files/MAT-2014-PAK-UZD.pdf",
-            "assessmentFile": "files/MAT-2014-PAK-VER.pdf",
-            "attachmentsFile": null
-          },
-          "BAN": {
-            "taskFile": "files/MAT-2014-BAN-UZD.pdf",
-            "assessmentFile": "files/MAT-2014-BAN-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2006": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2006-PGR-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2020": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2020-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2020-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2004": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2004-PGR-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2018": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2018-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2018-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2021": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2021-PGR-UZD.pdf",
-            "assessmentFile": "files/MAT-2021-PGR-VER.pdf",
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2007": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2007-PGR-UZD.pdf",
-            "assessmentFile": null,
-            "attachmentsFile": null
-          }
-        }
-      },
-      "2003": {
-        "exams": {
-          "PGR": {
-            "taskFile": "files/MAT-2003-PGR-UZD.pdf",
+            "taskFile": "files/IT/IT-2006-PGR-UZD.pdf",
             "assessmentFile": null,
             "attachmentsFile": null
           }
