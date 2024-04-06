@@ -40,8 +40,9 @@
                 <tr>
                     <th>Metai</th>
                     <th>Tipas</th>
-                    <th>Užduotis</th>
-                    <th>Vertinimas</th>
+                    <template v-for="column in tableColumns">
+                        <th>{{ column.name }}</th>
+                    </template>
                 </tr>
             </thead>
             <tbody>
@@ -49,14 +50,13 @@
                     <tr>
                         <td v-if="exam.tableRowSpan " :rowspan="exam.tableRowSpan">{{ exam.year }}</td>
                         <td :title="exam.session.name">{{ exam.session.key }}</td>
-                        <td>
-                            <a v-if="exam.task" :href="exam.task.url" class="d-block w-100" target="_blank">
-                                {{ exam.task.name }}</a>
-                        </td>
-                        <td>
-                            <a v-if="exam.assessment" :href="exam.assessment.url" class="d-block w-100" target="_blank">
-                                {{ exam.assessment.name }}</a>
-                        </td>
+
+                        <template v-for="column in tableColumns">
+                            <td>
+                                <a v-if="exam[column.fileType]" :href="exam[column.fileType].url" class="d-block w-100" target="_blank">
+                                    {{ exam[column.fileType].name }}</a>
+                            </td>
+                        </template>
                     </tr>
                 </template>
             </tbody>
