@@ -453,6 +453,11 @@
             "taskFile": "files/IT/IT-2023-PGR-UZD.pdf",
             "assessmentFile": "files/IT/IT-2023-PGR-VER.pdf",
             "attachmentsFile": "files/IT/priedai/IT-2023-PGR-PRD.zip"
+          },
+          "BAN": {
+            "taskFile": "files/IT/IT-2023-BAN-UZD.pdf",
+            "assessmentFile": null,
+            "attachmentsFile": null
           }
         }
       },
