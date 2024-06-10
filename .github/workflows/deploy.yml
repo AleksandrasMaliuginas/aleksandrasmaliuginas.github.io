@@ -24,13 +24,14 @@ jobs:
     needs: build
     steps:
       - name: Report build status
-        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/telemetry" \
-            -F github_run_id="$GITHUB_RUN_ID" \
-            -F conclusion="$CONCLUSION"
         shell: /usr/bin/bash -e {0}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONCLUSION: success
+        run: |
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/telemetry"
+          -F github_run_id="$GITHUB_RUN_ID"
+          -F conclusion="$CONCLUSION"
 
   deploy:
     runs-on: ubuntu-latest
