@@ -1,7 +1,5 @@
-name: Deploy site
-on:
- push:
-   branches: ["test-manual-workflow"]
+name: Pages deploy
+on: workflow_dispatch
 permissions:
   contents: read
   pages: write
